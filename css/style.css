@@ -115,16 +115,22 @@ ul {
 
 
 /* заказ */
-.bg-order {
-    background: var(--background-black)
-}
-.bg-order {
+
+.section.bg-order {
+    max-width: 1600px;
+    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-}
-
-.hero {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C4C4C4;
     text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("../image/bg-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero .title {
@@ -241,6 +247,10 @@ ul {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.bg-order.footer {
+    background: var(--background-black)
+}
+
 .logo-white {
     color: var(--hero-color);
 }
