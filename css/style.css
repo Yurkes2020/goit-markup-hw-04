@@ -111,13 +111,13 @@ ul {
     background: var(--background-main);
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin: auto;
 }
-
 
 /* заказ */
 
-.section.bg-order {
-    max-width: 1600px;
+.section.hero {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -224,6 +224,7 @@ ul {
 .worker {
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .list-team .name {
@@ -232,18 +233,30 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     
 }
 .list-team .job {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
+    margin-bottom: 16px;
+}
+
+.worker .social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-link .icon {
+    width: 20px;
+    height: 20px;
 }
 
 /* подвал */
 .footer {
+    max-width: 1600px;
+    margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
 }
