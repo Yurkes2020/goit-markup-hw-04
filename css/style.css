@@ -31,6 +31,7 @@ ul {
 .header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -51,7 +52,7 @@ ul {
 .nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .nav-list {
@@ -121,10 +122,9 @@ ul {
 /* секция  */
 
 .section {
-    background: var(--background-main);
+    background: var(--hero-color);
     padding-top: 94px;
     padding-bottom: 94px;
-    max-width: 1600px;
     margin: auto;
 }
 
@@ -178,30 +178,33 @@ ul {
 .diferent {
     padding-bottom: 0;
 }
+
 .none {
     display: none;
 }
+
 .section-list {
     display: flex;
 }
+
 .section-list .item:not(:last-child) {
     margin-right: 30px;
 }
 
 .block {
+    display: flex;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 100px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .block .icon {
     width: 70px;
     height: 70px;
-    
 }
 
 .section-list .title {
@@ -295,7 +298,7 @@ ul {
     margin: 12px;
     width: 20px;
     height: 20px;
-    fill: var(--text-color);
+    fill: #AFB1B8;
 }
 
 /* постояннын клиенты */
@@ -337,7 +340,6 @@ ul {
 
 /* подвал */
 .footer {
-    max-width: 1600px;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -483,7 +485,7 @@ ul {
     padding-top: 20px;
     text-align: left;
     border: 1px solid #EEEEEE;
-    border-top: 1px solid var(--hero-color);
+    border-top: none;
 }
 
 .cards-title {
